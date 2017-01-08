@@ -1,0 +1,6 @@
+---
+# roles.txt
+# from github
+- src: https://github.com/andrewrothstein/ansible-consul
+  name: andrewrothstein.consul
+  version: v3.0.3

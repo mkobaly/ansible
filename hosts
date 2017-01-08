@@ -1,0 +1,9 @@
+[cluster_nodes]
+192.168.0.19 ansible_python_interpreter=/usr/bin/python3 consul_node_role=server consul_iface=enp1s0
+192.168.0.23 consul_node_role=bootstrap consul_iface=eth0
+192.168.0.27 ansible_python_interpreter=/usr/bin/python3 consul_node_role=server consul_iface=eth0
+
+[consul-agent-server]
+192.168.0.19 ansible_python_interpreter=/usr/bin/python3 consul_agent_network_iface=enp1s0
+192.168.0.23 consul_agent_network_iface=eth0
+192.168.0.27 ansible_python_interpreter=/usr/bin/python3 consul_agent_network_iface=eth0

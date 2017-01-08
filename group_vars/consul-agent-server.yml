@@ -1,0 +1,3 @@
+---
+# server vars
+consul_agent_bootstrap_expect : 3
