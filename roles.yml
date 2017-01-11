@@ -4,3 +4,6 @@
 - src: https://github.com/andrewrothstein/ansible-consul
   name: andrewrothstein.consul
   version: v3.0.3
+- src: https://github.com/mkobaly/ansible-consul-cluster
+  name: mkobaly.consul-cluster
+  version: master

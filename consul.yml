@@ -5,4 +5,4 @@
   hosts: consul-agent-server
   any_errors_fatal: true
   roles:
-    - { role: andrewrothstein.consul-cluster }
+    - { role: mkobaly.consul-cluster }
